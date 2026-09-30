@@ -1,0 +1,28 @@
+.call-to-action-link{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 1em 2em;
+    text-decoration: none;
+    width: fit-content;
+}
+
+section{
+    display: flex;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+section .column{
+    flex: 1;
+}
+
+section .column img{
+    max-height: 300px;
+}
+
+.column-left{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
